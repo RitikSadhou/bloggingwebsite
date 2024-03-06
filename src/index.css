@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+     background-color: #111729;
+ 
+}
+
+.post{
+    background-color: #1B2E53;
+    color: white;
+}
+
+.postcontent{
+    color: white;
+    
+}
+.postcard{
+ width: 300px;
+ height: 200px;
+ border: 1px solid;
+ border-color: rgb(3 105 161);
+ background-color: #1E293B;
+ color: white;
+ 
+}
