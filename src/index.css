@@ -3,8 +3,13 @@
 @tailwind utilities;
 
 body{
-     background-color: #111729;
- 
+   
+    background-image: url(pages/blog.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat, repeat;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 
 .post{

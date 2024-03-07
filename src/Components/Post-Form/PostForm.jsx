@@ -16,7 +16,7 @@ export default function PostForm({ post }) {
     });
 
     const navigate = useNavigate();
-    const userData = useSelector((state) => state.auth.userData);
+    const userData = useSelector((state) => state.auth.userData) || {};;
 
     const submit = async (data) => {
         if (post) {
@@ -101,7 +101,7 @@ export default function PostForm({ post }) {
                 {post && (
                     <div className="w-full mb-4">
                         <img
-                            src={appwriteService.getFilePreview(post.featuredImage)}
+                            src={appwriteService.getFilePreview(post.featureimage)}
                             alt={post.title}
                             className="rounded-lg"
                         />
